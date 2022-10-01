@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+    margin: 0 8rem;
+    padding: 0;
+    background-color: rgb(246, 236, 218);
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 75, 75);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+
+a{
+    color: rgb(43, 75, 75);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+a:hover{
+    color: rgb(55, 43, 43);
+    font-weight: 600;
+}
+
+h2{
+    color: rgb(43, 75, 75);
+    letter-spacing: 1px;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+hr{
+    background-color: rgb(199, 196, 193);
+    width: 97%;
+    height: 0.5px;
+    margin: 5rem auto;  /* auto to center */
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+}
+
+.hero-text{
+    text-align: right;
+}
+
+.hero-text h2{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: -3rem;
+    color: rgb(177, 11, 11);
+}
+
+.hero-text h3{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.hero-image img{
+    width: auto;
+    height: 400px;
+    box-shadow: 5px 10px 18px #888888;
+    object-fit: contain;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.sec{
+    line-height: 3rem;
+}
+
+.sec li{
+    font-size: 1.3rem;
+    list-style-type:square;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+td{
+    text-align: center;
+}
+
+.sec{
+    flex-grow: 1;
+}
+
+.work-image{
+    width: 500px;
+    box-shadow: 5px 10px 18px #888888;
+    /* box-shadow: 0 0 18px #888888; */
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+}
